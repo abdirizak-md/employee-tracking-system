@@ -1,9 +1,10 @@
+import Header from "./components/Header";
 
 function App() {
 
   return (
     <>
-      <h1>hello from vite and git collabration</h1>
+      <Header />
     </>
   )
 }
