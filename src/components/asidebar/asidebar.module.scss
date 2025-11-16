@@ -5,12 +5,57 @@
    justify-content: flex-start;
    align-items: center;
    background-color: mixin.$cards;
+   margin: 5px 10px;
+   border-radius: 7px;
+
+   ul{
+    margin: 10px;
+
    
 }
-.sideLists{
-    display: flex;
+ ul li{
+       list-style-type: none;
+       margin: 10px 5px;
+       font-size: mixin.$font-2xl;
+       text-transform: capitalize;
+       width: 100%;
+       padding: 0 mixin.$space-4;
+      
+       
+    }
+    .icons{
+        color: rgb(102, 99, 99);
+        font-size: mixin.$font-xl;
+        margin: 0 7px;
+    }
+
+   
+}
+a{
+    text-decoration: none;
+     color: rgb(102, 99, 99);
+}
+
+
+ li:hover {
+       
+        background-color: rgb(235, 235, 241);
+        border-radius: 7px;
+         height: 30px;
+        
+      a,.icons{
+                color: mixin.$primary;
+
+      }
+      }
+      .active{
+          background-color: rgb(235, 235, 241);
+        border-radius: 7px;
+         height: 30px;
+        
+      a,.icons{
+                color: mixin.$primary;
+
+      }
+      }
     
-}
-.sideLists ul{
-    text-align: left;
-}

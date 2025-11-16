@@ -1,6 +1,7 @@
 import AsideBar from "./components/asidebar/AsideBar"
+import { Outlet } from "react-router-dom";
 import Header from "./components/header/Header"
-import Main from "./components/main/Main"
+
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
         <Header />
         <div className="lower-header">
           <AsideBar />
-          <Main />
+          <Outlet />
         </div>
        </div>
     </div>
