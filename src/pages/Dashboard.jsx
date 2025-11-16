@@ -105,11 +105,16 @@ function Dashboard() {
       </div>
 
       </div>
-    
+
+import React from 'react'
+
+function Dashboard() {
+  return (
+    <div>
+      <h1>Dashboard</h1>
     </div>
-
-
   )
 }
 
+export default Main
 export default Dashboard
