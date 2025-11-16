@@ -1,0 +1,16 @@
+@use'../../variables.scss' as mixin;
+
+.container{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   background-color: mixin.$cards;
+   
+}
+.sideLists{
+    display: flex;
+    
+}
+.sideLists ul{
+    text-align: left;
+}

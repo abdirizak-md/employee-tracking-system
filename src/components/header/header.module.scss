@@ -1,0 +1,38 @@
+@use'../../variables.scss' as mixin;
+
+.header {
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   border-bottom: 1px solid #eee;
+   padding: 0 1rem;
+   padding-bottom: .8rem;
+}
+
+.logoname {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification {
+    padding: 0 1rem;
+}
+
+.profile {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.username {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0 .5rem;
+}

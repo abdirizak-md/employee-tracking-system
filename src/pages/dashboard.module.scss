@@ -1,0 +1,108 @@
+.mainPage {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.totalEmployee {
+    width: 200px;
+    height: 110px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: 0.1);
+    border-radius: 10px;
+    padding: 1rem;
+
+    span {
+        font-size: 1.1rem;
+        padding-left: 1rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+        font-weight: 800;
+        padding-left: 1rem;
+        padding-top: .5rem;
+    }
+}
+
+
+
+.activeProjects {
+    width: 200px;
+    height: 110px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: 0.1);
+    border-radius: 10px;
+    padding: 1rem;
+
+    span {
+        font-size: 1.1rem;
+        padding-left: 1rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+        font-weight: 800;
+        padding-left: 1rem;
+        padding-top: .5rem;
+    }
+}
+
+.attendance {
+    width: 200px;
+    height: 110px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: 0.1);
+    border-radius: 10px;
+    padding: 1rem;
+
+    span {
+        font-size: 1.1rem;
+    }
+
+    .attendances {
+        display: flex;
+        justify-content: space-between;  
+        padding-top: .5rem;
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 800;
+        }
+    
+        h4 {
+            font-weight: normal;
+            font-size: .8rem;
+            padding-top: .4rem;
+        }
+
+    }
+}
+
+
+.attendanceProductivity {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.attendanced {
+    width: 100%;
+    box-shadow: 1px 1px 1px rgba($color: #000000, $alpha: 0.1);
+}
+
+.productive {
+    width: 60%;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
