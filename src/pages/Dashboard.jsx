@@ -20,7 +20,7 @@ const attendanceData = [
 ];
 
 
-function Main() {
+function Dashboard() {
 
   const data = [
     { day: "Mon", value: 60 },
@@ -105,16 +105,11 @@ function Main() {
       </div>
 
       </div>
-
-import React from 'react'
-
-function Dashboard() {
-  return (
-    <div>
-      <h1>Dashboard</h1>
+    
     </div>
+
+
   )
 }
 
-export default Main
 export default Dashboard
