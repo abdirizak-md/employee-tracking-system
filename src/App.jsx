@@ -1,6 +1,8 @@
 import AsideBar from "./components/asidebar/AsideBar"
+import { Outlet } from "react-router-dom";
 import Header from "./components/header/Header"
 import Dashboard from './pages/Dashboard'
+
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
           <AsideBar />
           <Dashboard/>
         </div> 
+          <Outlet />
+        </div>
        </div>
     </div>
   )
