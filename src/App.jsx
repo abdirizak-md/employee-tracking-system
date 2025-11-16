@@ -1,10 +1,19 @@
+import AsideBar from "./components/asidebar/AsideBar"
+import Header from "./components/header/Header"
+import Main from "./components/main/Main"
 
 function App() {
 
   return (
-    <>
-      <h1>hello from vite and git collabration</h1>
-    </>
+    <div className="container" >
+       <div className="divider">
+        <Header />
+        <div className="lower-header">
+          <AsideBar />
+          <Main />
+        </div>
+       </div>
+    </div>
   )
 }
 
