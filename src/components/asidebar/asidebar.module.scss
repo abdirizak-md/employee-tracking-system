@@ -3,17 +3,20 @@
 .container{
    display: flex;
    justify-content: flex-start;
-  
+   align-items: center;
    background-color: mixin.$cards;
-   margin: 0 10px;
+   margin: 5px 10px;
    border-radius: 7px;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.01);
-  
 
+   ul{
+    margin: 10px;
+
+   
+}
  ul li{
        list-style-type: none;
        margin: 10px 5px;
-       font-size: mixin.$font-xl;
+       font-size: mixin.$font-2xl;
        text-transform: capitalize;
        width: 100%;
        padding: 0 mixin.$space-4;
@@ -22,7 +25,7 @@
     }
     .icons{
         color: rgb(102, 99, 99);
-        font-size: mixin.$font-lg;
+        font-size: mixin.$font-xl;
         margin: 0 7px;
     }
 

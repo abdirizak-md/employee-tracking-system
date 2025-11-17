@@ -11,12 +11,10 @@ function App() {
         <Header />
         <div className="lower-header">
           <AsideBar />
-          <Dashboard/>
-        </div> 
           <Outlet />
+        </div> 
         </div>
        </div>
-    </div>
   )
 }
 

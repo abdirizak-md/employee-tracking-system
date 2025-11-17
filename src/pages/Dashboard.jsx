@@ -86,35 +86,29 @@ function Dashboard() {
 
 
         <div className="p-6 bg-white rounded-2xl shadow w-full">
-        <h2 className="text-lg font-semibold mb-4">Productivity</h2>
+          <h2 className="text-lg font-semibold mb-4">Productivity</h2>
 
-        <div className="flex items-end justify-between h-44 px-2">
-          {data.map((item) => (
-            <div key={item.day} className="flex flex-col items-center">
-              <div
-                className="w-6 bg-blue-500 rounded-xl"
-                style={{
-                  height: `${(item.value / maxValue) * 100}%`,
-                  transition: "height 0.6s ease",
-                }}
-              ></div>
-              <span className="text-xs text-gray-500 mt-2">{item.day}</span>
-            </div>
-          ))}
+          <div className="flex items-end justify-between h-44 px-2">
+            {data.map((item) => (
+              <div key={item.day} className="flex flex-col items-center">
+                <div
+                  className="w-6 bg-blue-500 rounded-xl"
+                  style={{
+                    height: `${(item.value / maxValue) * 100}%`,
+                    transition: "height 0.6s ease",
+                  }}
+                ></div>
+                <span className="text-xs text-gray-500 mt-2">{item.day}</span>
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
 
       </div>
 
-import React from 'react'
 
-function Dashboard() {
-  return (
-    <div>
-      <h1>Dashboard</h1>
     </div>
   )
 }
 
-export default Main
 export default Dashboard
