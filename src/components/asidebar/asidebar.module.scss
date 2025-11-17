@@ -3,17 +3,13 @@
 .container{
    display: flex;
    justify-content: flex-start;
-   align-items: center;
    background-color: mixin.$cards;
    margin: 5px 10px;
    border-radius: 7px;
 
-   ul{
-    margin: 10px;
-
-   
-}
  ul li{
+    display: flex;
+    align-items: center;
        list-style-type: none;
        margin: 10px 5px;
        font-size: mixin.$font-2xl;
@@ -42,7 +38,6 @@ a{
        
         background-color: rgb(235, 235, 241);
         border-radius: 7px;
-         height: 30px;
         
       a,.icons{
                 color: mixin.$primary;
@@ -52,7 +47,6 @@ a{
       .active{
           background-color: rgb(235, 235, 241);
         border-radius: 7px;
-         height: 30px;
         
       a,.icons{
                 color: mixin.$primary;

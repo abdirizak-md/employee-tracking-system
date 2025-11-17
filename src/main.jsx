@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from './App.jsx';
 import './index.scss';
+import './index.css';
 import Attendance from './pages/attendance.jsx';
 import Employee from './pages/employee.jsx';
 import Project from './pages/project.jsx';

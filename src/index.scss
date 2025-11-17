@@ -18,7 +18,7 @@ body{
 }
 
 .container{
-  width: 1000px;
+  width: 1200px;
   margin:  0  auto;
   padding: 10px;
   
@@ -34,6 +34,6 @@ body{
 }
 .lower-header{
   display: grid;
-  grid-template-columns: 1.3fr 3fr;
+  grid-template-columns: 1fr 5fr;
   width: 100%;
 }

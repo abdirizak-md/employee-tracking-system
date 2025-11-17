@@ -73,20 +73,21 @@
 
 
 
- li:hover {
+//  li:hover {
        
-        background-color: rgb(235, 235, 241);
-        border-radius: 7px;
-        width: 120px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+//         background-color: rgb(235, 235, 241);
+//         border-radius: 7px;
+//         width: 120px;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
         
-      a,.icons{
-                color: mixin.$primary;
+//       a,.icons{
+//                 color: mixin.$primary;
 
-      }
-      }
+//       }
+// }
+
       .active{
           background-color: rgb(235, 235, 241);
         border-radius: 7px;

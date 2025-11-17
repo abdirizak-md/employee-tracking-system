@@ -1,0 +1,160 @@
+ * {
+    margin: 0%;
+    padding: 0%;
+ }
+
+.employee {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainEmployee {
+    display: grid;
+    width: 100%;
+    grid-auto-flow: column;
+    justify-content: space-between;
+}
+
+.left {
+    flex: 3;
+}
+
+.right {
+    flex: 1;
+}
+
+.name {
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.search {
+    display: flex;
+}
+
+// search style
+.searched {
+    width: 100%;
+    border: 1px solid #aaa;
+    display: flex;
+    align-items: center;
+    padding: 0 .5rem;
+    border-radius: .5rem;
+    margin-right: 2rem;
+
+}
+.icons {
+    width: 1rem;
+    height: 1rem;
+}
+
+.searchs {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: .5rem .5rem;
+    font-size: 1rem;
+    color: #111;
+
+    &::placeholder {
+        color: #202020;
+    }
+}
+// filter style
+.filter {
+    width: 40%;
+    border: 1px solid #aaa;
+    display: flex;
+    align-items: center;
+    padding: 0 .5rem;
+    border-radius: .5rem;
+    margin-left: 2rem;
+
+}
+.icon {
+    width: 1rem;
+    height: 1rem;
+}
+
+.filters {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: .5rem .5rem;
+    font-size: 1rem;
+    color: #111;
+
+    &::placeholder {
+        color: #202020;
+    }
+}
+
+
+
+.names {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 1rem;
+
+    span {
+        font-size: 1.4rem;
+        padding-right: 3rem;
+        padding-bottom: .6rem;
+        padding-top: .6rem;
+        text-align: left;
+        border-top: 1px solid #aaa;
+        border-bottom: 1px solid #aaa;
+    }
+}
+
+
+
+.rows {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+
+    img {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        margin-right: 1rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+        font-weight: 500;
+        padding-right: 1rem;   
+    }
+
+    p {
+        font-size: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .active {
+        font-size: 1.5rem;
+        background-color: #92b592;
+        color: #003900;
+        outline: none;
+        border: none;
+        padding: 0 1rem;
+        border-radius: 10px;
+    }
+
+    .eye {
+        font-size: 1.5rem;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        padding: 0 1rem;
+    }
+    .delete {
+        font-size: 1.5rem;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        padding-right: 2rem;
+    }
+}
