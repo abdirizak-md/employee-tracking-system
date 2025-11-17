@@ -1,4 +1,4 @@
-import style from './dashboard.module.scss'
+import style from '../pageStyle/dashboard.module.scss'
 import {
   BarChart,
   Bar,
