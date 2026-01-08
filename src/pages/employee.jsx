@@ -30,7 +30,7 @@ function Employee() {
 
           </div>
 
-          <div className={style.names}>
+          {/* <div className={style.names}>
             <span>Name</span>
             <span>Role</span>
             <span>Department</span>
@@ -67,7 +67,19 @@ function Employee() {
             <button className={style.active}>Active</button>
             <button className={style.eye}><IoEyeOutline /></button>
             <button className={style.delete}><MdDeleteOutline /></button>
-          </div>
+          </div> */}
+
+        <table>
+          <td>name</td>
+          <td>Role</td>
+          <td>Department</td>
+          <td>Phone</td>
+          <td>Active</td>
+          <td>Action</td>
+          <tbody>
+            <img src={profileImage} alt="" /> 
+          </tbody>
+        </table>
 
                     
         </div>

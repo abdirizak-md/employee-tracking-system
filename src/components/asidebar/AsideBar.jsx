@@ -9,7 +9,7 @@ function AsideBar() {
      
         <ul>
             <li><MdDashboard className={styles.icons}/>
-           <Link to="/dashboard">dashbord</Link>
+           <Link to="/">dashbord</Link>
             </li>
             <li><MdGroup className={styles.icons} />
              <NavLink
